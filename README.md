@@ -1,10 +1,10 @@
-# VTI Deterministic Governance Reference
+VTI Deterministic Governance Reference
 
 Public reference architecture for deterministic governance of consequential digital actions.
 
-## About VTI Foundation
+About VTI Foundation Inc.
 
-VTI Foundation is an independent nonprofit standards organization focused on deterministic governance for consequential digital systems.
+VTI Foundation Inc. is an independent nonprofit standards organization focused on deterministic governance for consequential digital systems.
 
 VTI develops standards and architectural frameworks for establishing whether a proposed digital action is authorized and admissible before that action is permitted to create consequence.
 
@@ -12,7 +12,7 @@ VTI's work includes Trust-State®, the Authority-State Layer (ASL), the Parallel
 
 This repository provides a limited, non-normative technical reference surface for developers, researchers, infrastructure providers, and ecosystem partners evaluating integration with VTI-defined governance concepts.
 
-## Purpose of This Repository
+Purpose of This Repository
 
 This repository is intended to demonstrate:
 
@@ -29,11 +29,10 @@ It does not contain a production implementation of Trust-State, ASL, PAL, or any
 
 It does not represent that capabilities not contained in this repository have been implemented here.
 
-## Reference Architecture
+Reference Architecture
 
 At a high level, the reference architecture separates the governance of an action from the infrastructure that ultimately executes or records it.
 
-```text
 Proposed Action
       │
       ▼
@@ -55,7 +54,6 @@ Infrastructure Adapter
       ├── API or application
       ├── enterprise platform
       └── legacy system
-```
 
 The infrastructure layer may transport, record, verify, or execute an authorized action.
 
@@ -63,9 +61,9 @@ It does not, by virtue of that role alone, define the underlying governance stat
 
 This separation allows the same governance architecture to be evaluated across different execution environments without making a particular blockchain, ledger, cloud provider, identity system, or application platform authoritative for the architecture as a whole.
 
-## Repository Contents
+Repository Contents
 
-### Documentation
+Documentation
 
 `docs/architecture.md`
 Describes the public reference architecture and major component boundaries.
@@ -86,13 +84,13 @@ A draft, non-normative interface for representing the result of a governance eva
 
 These schemas are provided as implementation aids only. They do not define conformance with a VTI standard and should not be interpreted as complete implementations of ASL, PAL, Trust-State®, or any VTI specification.
 
-### Examples
+Examples
 
 The `examples/` directory contains minimal examples corresponding to the public reference schemas.
 
 Examples are illustrative only and do not constitute certification test vectors, normative examples, or production recommendations.
 
-## Infrastructure Neutrality
+Infrastructure Neutrality
 
 The reference architecture is infrastructure-neutral by design.
 
@@ -102,7 +100,7 @@ No particular network or infrastructure provider is required by this repository.
 
 Ecosystem-specific implementations may be developed separately where appropriate.
 
-## Open Reference Work and VTI Standards
+Open Reference Work and VTI Standards
 
 There is an intentional distinction between:
 
@@ -117,7 +115,7 @@ Nothing in this repository should be interpreted as establishing conformance, ce
 
 See [`NOTICE.md`](NOTICE.md) for additional intellectual-property and trademark information.
 
-## Project Status
+Project Status
 
 **Status: Early public reference architecture**
 
@@ -131,7 +129,7 @@ Current work is focused on:
 
 The project does not currently claim to provide a complete production implementation.
 
-## Contributing
+Contributing
 
 Contributions to the open reference materials are welcome within the scope described in `CONTRIBUTING.md`.
 
@@ -139,13 +137,13 @@ Contributions to this repository should not include confidential information, un
 
 Standards development and certification governance are separate from this repository.
 
-## Security
+Security
 
 Security issues should not be reported through public GitHub issues.
 
 See `SECURITY.md` for the current disclosure process.
 
-## License
+License
 
 Unless otherwise identified, material contained in this repository is made available under the license contained in [`LICENSE`](LICENSE).
 
@@ -155,15 +153,15 @@ It does not grant rights to separately published or unpublished VTI standards, c
 
 See [`NOTICE.md`](NOTICE.md) for additional information.
 
-## Trademarks
+Trademarks
 
 Trust-State® and other VTI names, marks, and logos may be trademarks or registered trademarks of VTI Foundation or their respective owners.
 
 Open-source licensing of repository content does not grant trademark rights or the right to represent an implementation as VTI-certified, VTI-verified, Trust-State® conformant, or otherwise endorsed by VTI Foundation.
 
-## About VTI
+About VTI
 
-VTI Foundation
+VTI Foundation Inc.
 Independent standards stewardship for deterministic governance of consequential digital systems.
 
 https://vtifoundation.org
