@@ -8,6 +8,8 @@ It is intentionally high-level and non-normative.
 
 It does not define conformance with any VTI Foundation Inc. standard, certification program, or proprietary implementation.
 
+![VTI Deterministic Governance Reference Architecture](diagrams/reference-architecture.svg)
+
 ## Architectural Principle
 
 The reference architecture separates:
