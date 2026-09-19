@@ -111,7 +111,7 @@ This repository is not the canonical publication location for VTI standards.
 
 Publication of an interface, example, diagram, schema, or reference implementation in this repository does not make unpublished or separately published VTI standards, certification materials, or other intellectual property part of this repository.
 
-Nothing in this repository should be interpreted as establishing conformance, certification, approval, or endorsement by VTI Foundation.
+Nothing in this repository should be interpreted as establishing conformance, certification, approval, or endorsement by VTI Foundation Inc..
 
 See [`NOTICE.md`](NOTICE.md) for additional intellectual-property and trademark information.
 
@@ -155,7 +155,7 @@ See [`NOTICE.md`](NOTICE.md) for additional information.
 
 ## Trademarks
 
-Trust-State® and other VTI names, marks, and logos may be trademarks or registered trademarks of VTI Foundation or their respective owners.
+Trust-State® and other VTI names, marks, and logos may be trademarks or registered trademarks of VTI Foundation Inc. or their respective owners.
 
 Open-source licensing of repository content does not grant trademark rights or the right to represent an implementation as VTI-certified, VTI-verified, Trust-State® conformant, or otherwise endorsed by VTI Foundation.
 
